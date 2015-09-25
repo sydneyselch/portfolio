@@ -25,14 +25,104 @@ body{
     
 }
 
+
+
+
+
+
+@-webkit-keyframes colorshift {
+	0%   { color: #FFEBD6; }
+	25%  { color: #F5EBFF; }
+	50%  { color: #D6EBFF; }
+	75%  { color: #D6FFEB; }
+	100%  { color: #FFEBD6; }
+}
+@-moz-keyframes colorshift {
+	0%   { color: #FFEBD6; }
+	25%  { color: #F5EBFF; }
+	50%  { color: #D6EBFF; }
+	75%  { color: #D6FFEB; }
+	100%  { color: #FFEBD6; }
+}
+@-ms-keyframes colorshift {
+	0%   { color: #FFEBD6; }
+	25%  { color: #F5EBFF; }
+	50%  { color: #D6EBFF; }
+	75%  { color: #D6FFEB; }
+	100%  { color: #FFEBD6; }
+}
+@-o-keyframes colorshift {
+	0%   { color: #FFEBD6; }
+	25%  { color: #F5EBFF; }
+	50%  { color: #D6EBFF; }
+	75%  { color: #D6FFEB; }
+	100%  { color: #FFEBD6; }
+}
+
+@-webkit-keyframes colorshift {
+	0%   { background-color: #FFEBD6; }
+	25%  { background-color: #F5EBFF; }
+	50%  { background-color: #D6EBFF; }
+	75%  { background-color: #D6FFEB; }
+	100%  { background-color: #FFEBD6; }
+}
+@-moz-keyframes colorshift {
+	0%   { background-color: #FFEBD6; }
+	25%  { background-color: #F5EBFF; }
+	50%  { background-color: #D6EBFF; }
+	75%  { background-color: #D6FFEB; }
+	100%  { background-color: #FFEBD6; }
+}
+@-ms-keyframes colorshift {
+	0%   { background-color: #FFEBD6; }
+	25%  { background-color: #F5EBFF; }
+	50%  { background-color: #D6EBFF; }
+	75%  { background-color: #D6FFEB; }
+	100%  { background-color:#FFEBD6; }
+}
+@-o-keyframes colorshift {
+	0%   { background-color: #FFEBD6; }
+	25%  { background-color: #F5EBFF; }
+	50%  { background-color: #D6EBFF; }
+	75%  { background-color: #D6FFEB; }
+	100%  { background-color: #FFEBD6; }
+}
+
+.bg{
+    background-color:  color: #FFEBD6;
+	-webkit-animation: colorshift 25s infinite;
+	-moz-animation:    colorshift 25s infinite;
+ 	-ms-animation:     colorshift 25s infinite;
+ 	-o-animation:      colorshift 25s infinite;
+}
+
+
 header{
     display: block;   
-    background-color: pink;
+
+	margin: .5em 5% 0;
     height: 100px;
 }
 
 
+.title {
+    margin: 1em .5em 1em;
+    text-align: center;
+    font-weight: 100;
+    font-size: 3.5em;
+    line-height: 1.5em;
 
+}
+
+
+.subhead {
+    margin: 1em 2em 1em;
+    font-weight: 200;
+    
+    
+    
+    
+}
 
 
 
