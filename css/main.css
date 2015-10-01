@@ -13,6 +13,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -o-text-size-adjust: 100%;
     font-family: Helvetica, Arial, sans-serif;
+    color: slategrey;
 }
 
 *, *:before, *:after {
@@ -30,15 +31,9 @@ h1{
     text-align: center;
     font-weight: 100;
     font-size: 2.5em;
-    padding: 1em 0 0;
-    
-    
-    
+    padding: .5em 0 0;
     
 }
-
-
-
 
 
 @-webkit-keyframes colorshift {
@@ -264,7 +259,7 @@ h1{
     background-color: pink;
     position: absolute;
     left: 70%;
-    top:-2%;
+    top:35px;
  
 }
 
@@ -279,6 +274,54 @@ h1{
     top:35px;
  
 }
+
+
+
+.dot5{
+    height: 15px;
+    width: 15px;
+    border-radius: 300px;
+    background-color: orange;
+    position: absolute;
+    left:30%;
+    top:-2%;
+ 
+}
+
+.dot6{
+    height: 15px;
+    width: 15px;
+    border-radius: 300px;
+    background-color: blue;
+    position: absolute;
+    left:50%;
+    top:-2%;
+ 
+}
+
+.dot7{
+    height: 15px;
+    width: 15px;
+    border-radius: 300px;
+    background-color: pink;
+    position: absolute;
+    left: 70%;
+    top:-2%;
+ 
+}
+
+
+.dot8{
+    height: 15px;
+    width: 15px;
+    border-radius: 300px;
+    background-color: purple;
+    position: absolute;
+    left: 90%;
+    top:35px;
+ 
+}
+
 
 
 
@@ -298,54 +341,246 @@ h1{
     height: 100%;
 }
 
-.project1{
-    background-color: blue;
-    width: 300px;
-    height: 300px;
-    margin: 1em auto 0;
+.project-list{
+    list-style-type: none;
+    padding: 0;   
+    
     
 }
 
-.project2{
-    background-color: blue;
-    width: 300px;
+.project1{
+    border: 1px solid blue;
+    width: 100%;
     height: 300px;
     margin: 1em auto 0;
+    background-image:url(../images/bottle.png);
+    background-size: cover;
+    background-position: 10px 10px 10px 10px;
+    position: relative;
+    display: block;
     
+}
+
+.project-desc{
+    display: none;       
+}
+
+.project1:hover > .project-desc{
+    display: block;
+}
+
+.project1:hover{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+}
+
+
+
+
+.project2{
+    border: 1px solid blue;
+    width: 100%;
+    height: 300px;
+    margin: 1em auto 0;
+    background-image:url(../images/robot.png);
+    background-size: cover;
+    background-position: 10px 10px 10px 10px;
+    position: relative;
+    display: block;
+    
+}
+
+
+.project-desc{
+    display: none;   
+    
+}
+
+.project2:hover > .project-desc{
+    display: block;
+}
+
+
+.project2:hover{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
 }
 
 
 .project3{
-    background-color: blue;
-    width: 300px;
+    border: 1px solid blue;
+    width: 100%;
     height: 300px;
     margin: 1em auto 0;
+    background-image:url(../images/jack.png);
+    background-size: cover;
+    background-position: 10px 10px 10px 10px;
+    position: relative;
+    display: block;
     
 }
+
+
+.project-desc{
+    display: none;   
+    
+}
+
+.project3:hover > .project-desc{
+    display: block;
+}
+
+
+.project3:hover{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+}
+
 
 .project4{
-    background-color: blue;
-    width: 300px;
+    border: 1px solid blue;
+    width: 100%;
     height: 300px;
     margin: 1em auto 0;
+    background-image:url(../images/bottle.png);
+    background-size: cover;
+    background-position: 10px 10px 10px 10px;
+    position: relative;
+    display: block;
     
 }
 
+.project-desc{
+    display: none;       
+}
+
+.project4:hover > .project-desc{
+    display: block;
+}
+
+.project4:hover{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+}
+
+
+
+
 .project5{
-    background-color: blue;
-    width: 300px;
+    border: 1px solid blue;
+    width: 100%;
     height: 300px;
     margin: 1em auto 0;
+    background-image:url(../images/bottle.png);
+    background-size: cover;
+    background-position: 10px 10px 10px 10px;
+    position: relative;
+    display: block;
     
+}
+
+.project-desc{
+    display: none;       
+}
+
+.project5:hover > .project-desc{
+    display: block;
+}
+
+.project5:hover{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
 }
 
 .project6{
-    background-color: blue;
-    width: 300px;
+    border: 1px solid blue;
+    width: 100%;
     height: 300px;
     margin: 1em auto 0;
+    background-image:url(../images/bottle.png);
+    background-size: cover;
+    background-position: 10px 10px 10px 10px;
+    position: relative;
+    display: block;
     
 }
+
+.project-desc{
+    display: none;       
+}
+
+.project6:hover > .project-desc{
+    display: block;
+}
+
+.project6:hover{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+}
+
+
+
+
+.project-name{
+    position: absolute;
+    top: 40%;
+    left:25%;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0 auto 0;
+    color: white;
+    font-weight: 100;
+    font-size: 1.5em;
+ 
+}
+
+.see-more{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: grey;
+    margin: 0;
+    
+}   
+
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+
+}
+
+
+
 
 
 
@@ -358,7 +593,7 @@ footer{
     
     border: 1px solid black;
     height: 150px;
-    color: white;
+   
     
     
 }
