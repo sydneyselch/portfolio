@@ -589,6 +589,20 @@ h1{
     height: 100vh;
 }
 
+.message-me{
+    border-radius: 0px;
+    padding: 1em;
+    margin: 1em 0 1em;
+    
+    
+}
+
+
+
+
+
+
+
 footer{
     
     border: 1px solid black;
