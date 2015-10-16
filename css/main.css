@@ -55,7 +55,7 @@ body{
 
 .nav ul{
     text-align: center;  
-    padding: 50% 0 0;
+    padding: 30% 0 0;
   font-size: 1.5em;
 }
 
@@ -194,7 +194,7 @@ body{
 .small-trenches-logo{
     width: 120%;
     height: 120%;
-    margin: .75em 0 0 ;
+    margin: 0;
 }
 
 
@@ -222,12 +222,17 @@ body{
 .billboard {
     background-size: contain;
     background-repeat: no-repeat;
-    color:white;
+    background-image: url(../images/flower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     width: 100%;
     padding: 0 10% 0;
-    background-color: black;
+    background-color: grey;
     position: relative;
+     box-shadow: inset 0 0 0 1000px rgba(255,224,224,.75);
+    color: black;
+    
 }
 
 .word-container{
@@ -259,7 +264,6 @@ body{
 .billboard h1{
     font-size: 2rem;
     line-height: 2.5rem;
-    text-transform: uppercase;
     text-align: center;
     margin: .5em 0 1em;
 }
@@ -274,7 +278,9 @@ body{
 
 
 yellow{
-    color:#FFE0E0;
+    color: indianred;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 
@@ -298,7 +304,7 @@ yellow{
 }
     
 .services-button a:hover{
-    background-color: #FFE0E0;
+    background-color: indianred;
     border: 1px solid white;
     color: black;
 }
@@ -754,7 +760,7 @@ button:hover{
 }
 
 .desktop-nav ul{ 
-        padding: 10px 20px 0;
+        padding: 0 2% 0;
         list-style-type: none;
         float: right;
         text-align: center;
@@ -797,6 +803,11 @@ button:hover{
      .form-pad{    
         margin: 0 0;   
          float: left;
+    }
+    
+    .billboard{
+        height: 100vh;   
+        
     }
     
     
