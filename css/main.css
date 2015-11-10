@@ -70,11 +70,34 @@ body{
 }
 
 
-.ham{
+.ham {
     height: 50px;
     width: 50px;
     float: left;
     margin: .5em 2% .5em;
+    position: relative;
+    opacity: 1;
+}
+
+.ham-hover{
+    height: 50px;
+    width: 50px;
+    margin: .5em 2% .5em;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.ham:hover ~ .ham-hover{
+    opacity: 1;
+       
+}
+
+.ham:hover {
+    opacity: 0; 
+  
 }
 
 .nav {
@@ -255,12 +278,13 @@ body{
 }
 
 .billboard {
-    background-image: url(../images/izze-bg.jpg);
+    background-image: url(../images/syd-billboard.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
     position: relative;
+    
 
    
 
@@ -344,10 +368,10 @@ body{
 
 
 .down{
-    text-align:center;
     position: relative;
     z-index: 2;
     bottom: 50px;
+    left:20%;
 }
 
 
@@ -370,8 +394,8 @@ hotpink{
 
 
 .cta-button{
-    text-align: center;
-    width: 100%;
+    
+    width: 225px;
     margin: 1.5em 0 0 ;
 
 }
@@ -387,13 +411,14 @@ hotpink{
     font-weight: 100;
     text-transform: uppercase;
     border: 1px solid white;
+      border-radius: 5px;
     padding: .5em 5% .5em;
 
 }
     
 .cta-button a:hover{
     background-color:  #de0083;
-    border: 1px solid white;
+
 
 }
 
@@ -862,7 +887,7 @@ hotpink{
     padding: 1em;
     border: 1px solid white;
     position: absolute;
-     background-image: url(../images/1-29.jpg);
+     background-image: url(../images/3-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -876,7 +901,7 @@ hotpink{
     position: absolute;
     top:0;
     left: 20%;
-     background-image: url(../images/1-26.jpg);
+     background-image: url(../images/3-2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -890,7 +915,7 @@ hotpink{
     position: absolute;
     top: 0;
     right: 0;
-     background-image: url(../images/1-28.jpg);
+     background-image: url(../images/3-3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -906,7 +931,7 @@ hotpink{
     position: absolute;
     bottom: 0;
     left:20%;
-     background-image: url(../images/1-27.jpg);
+     background-image: url(../images/3-4.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -920,7 +945,7 @@ hotpink{
     padding: 1em;
     border: 1px solid white;
     position: absolute;
-       background-image: url(../images/1-8.jpg);
+       background-image: url(../images/4-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -934,7 +959,7 @@ hotpink{
     position: absolute;
     top:0;
     right: 0;
-     background-image: url(../images/1-7.jpg);
+     background-image: url(../images/4-2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -947,7 +972,7 @@ hotpink{
     border: 1px solid white;
     position: absolute;
     bottom: 0;
-     background-image: url(../images/1-9.jpg);
+     background-image: url(../images/4-3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -962,7 +987,7 @@ hotpink{
     position: absolute;
     bottom: 0;
     right: 0;
-     background-image: url(../images/1-11.jpg);
+     background-image: url(../images/4-4.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1131,9 +1156,7 @@ textarea{
 /*======================================*/
 
 @media only screen and (min-width: 30em){
-    .word-container{
-           margin: 0 20% 0;    
-    }
+   
     
     .container{
     margin: 1em 10% 4em;    
@@ -1143,9 +1166,7 @@ textarea{
 
 @media only screen and (min-width: 40em) {
         
-    .word-container{
-           margin: 0 20% 0;    
-    }
+   
     
     .mobile-logo{
         display: none;
@@ -1157,7 +1178,6 @@ textarea{
     
     .desktop-nav{
         text-transform: uppercase;
-        font-size: .75;
         padding: 0;
         overflow: hidden;
         display: block;
@@ -1220,7 +1240,7 @@ textarea{
     transition: all .3s linear;
     text-decoration: none;
     display: block;
-    font-size: 1.25em;
+    font-size: 1em;
     }
     
     .desktop-nav ul li a:hover {
@@ -1295,9 +1315,7 @@ textarea{
 
 @media only screen and (min-width: 50em) {
     
-      .word-container{
-           margin: 0 25% 0;    
-    }
+   
     
       .services-buckets{
     margin: .5em 15% .5em;
@@ -1319,10 +1337,7 @@ textarea{
 
 @media only screen and (min-width: 60em) {
     
-      .word-container{
-           margin: 0 30% 0;    
-    }
-    
+ 
 
       
 
@@ -1332,10 +1347,7 @@ textarea{
     
 @media only screen and (min-width: 70em) {
  
-     .word-container{
-           margin: 0 40% 0;    
-    }
-        
+  
     
     
 }
