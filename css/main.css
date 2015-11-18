@@ -443,7 +443,7 @@ hotpink{
 
 .about-work{
 
-  width: 100%;
+    width: 100%;
     height: 225px;
     position: relative;
     display: inline-block;
@@ -454,6 +454,62 @@ hotpink{
     margin: 0 10% 0 0;   
     
 }
+
+
+.scene-10-1{
+    height: 112.5px;
+    width: 60%;
+    padding: 1em;
+    border: 1px solid white;
+    position: absolute;
+       background-image: url(../images/syd.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scene-10-2{
+    height: 112.5px;
+    width: 40%;
+    padding: 1em;
+    border: 1px solid white;
+    position: absolute;
+    top:0;
+    right: 0;
+     background-color:#efefef;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scene-10-3{
+    height: 112.5px;
+    width: 40%;
+    padding: 1em;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 0;
+     background-color:#efefef;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.scene-10-4{
+    height: 112.5px;
+    width: 60%;
+    padding: 1em;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+     background-image: url(../images/syd-flower.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
 
 
 
@@ -1465,11 +1521,22 @@ textarea{
 .footer{
     background-color: deeppink;
     color: white;
-    height: 100px;
+    height: auto;
     width: 100%;
     text-align: center;
     overflow: hidden;
+    padding: 0 0 3em;
     box-shadow: 0 0 0 1000px (rgba 255,80,80,.9)
+}
+
+.syddesign{
+    margin:0;
+    font-size: 1em;
+}
+
+.cright{
+     
+
 }
 
 
@@ -1629,6 +1696,12 @@ textarea{
     width: 100%;
     height: 400px;
 }
+    .about-work{
+
+    width: 100%;
+    height: 400px;
+        margin: 4em 0 0;
+    }
     
     
     .scene-1-1{
@@ -1790,6 +1863,27 @@ textarea{
 
  
     
+  .scene-10-1{
+    height: 200px;
+
+}
+
+.scene-10-2{
+ height: 200px;
+
+}
+
+.scene-10-3{
+     height: 200px;
+
+    
+}
+
+.scene-10-4{
+     height: 200px;
+
+} 
+
  
 
 
