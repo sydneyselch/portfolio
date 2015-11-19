@@ -54,6 +54,11 @@ body{
 /*===========Navigation=================*/
 /*======================================*/
 
+.skip-links{
+    position:absolute;
+    top: -10;
+}
+
 .trenches-top{
     text-transform: uppercase;
     font-weight: 500;
