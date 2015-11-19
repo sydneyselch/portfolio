@@ -1,5 +1,0 @@
-markdown: redcarpet
-permalink: pretty
-baseurl: /portfolio
-exclude: ['README.md']
-exclude: ['portfolio-piece-template.md']
