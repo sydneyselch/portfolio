@@ -54,21 +54,11 @@ body{
 /*===========Navigation=================*/
 /*======================================*/
 
-<<<<<<< HEAD:_includes/css/main.css
-<<<<<<< Updated upstream:_includes/css/main.css
 .skip-links{
     position:absolute;
     top: -10;
-=======
-nav{
-    
-margin: 0;
-    padding: 0;
->>>>>>> Stashed changes:css/main.css
 }
 
-=======
->>>>>>> parent of e545ca0... JEKYL ADDED HALLELUJAH:css/main.css
 .trenches-top{
     text-transform: uppercase;
     font-weight: 500;
@@ -831,7 +821,7 @@ hotpink{
     height: 300px;
     width: 100%;
  
-        background-image: url(../images/izsketch3.jpg);
+        background-image: url(../images/izze4.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -853,7 +843,7 @@ hotpink{
     height: 300px;
     width: 100%;
  
-        background-image: url(../images/izsketch4.jpg);
+        background-image: url(../images/izze6.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -923,102 +913,6 @@ hotpink{
     background-size: contain;
     
 }
-
-.pic13{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/2-2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic14{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/2-1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic15{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/2-3.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic16{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/sketch1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic17{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/sketch2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic18{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/sketch4.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-
-.pic20{
-    height: 300px;
-    width: 100%;
-    background-image: url(../images/izsketch.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.pic21{
-    height: 300px;
-    width: 100%;
-    background-image: url(../images/izze6.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.pic22{
-    height: 300px;
-    width: 100%;
-    background-image: url(../images/izze4.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-
 
 
 
