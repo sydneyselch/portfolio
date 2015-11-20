@@ -54,14 +54,11 @@ body{
 /*===========Navigation=================*/
 /*======================================*/
 
-<<<<<<< HEAD:css/main.css
-=======
 .skip-links{
     position:absolute;
     top: -10;
 }
 
->>>>>>> FETCH_HEAD:_includes/css/main.css
 .trenches-top{
     text-transform: uppercase;
     font-weight: 500;
