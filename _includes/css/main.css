@@ -643,6 +643,31 @@ hotpink{
 }
 
 .lightbox:target {
+    display:block; 
+}
+
+
+
+.lightbox > .container{
+     overflow: hidden;
+    margin: 75px 10% 1em;
+    
+    
+}
+
+.lightbox2{
+    position: fixed;
+    top:75px;
+    left:0;
+    z-index: 50;
+    overflow: auto;
+    width: 100%;
+    height: calc(100vh - 75px);
+    display:none;
+    background-color: white;
+}
+
+.lightbox2:target {
     display:block;
  
     
@@ -650,13 +675,130 @@ hotpink{
 
 
 
-.lightbox > .container{
-     overflow: hidden;
-
+.lightbox2 > .container{
+    overflow: hidden;
     margin: 75px 10% 1em;
     
     
 }
+
+
+.lightbox3{
+    position: fixed;
+    top:75px;
+    left:0;
+    z-index: 50;
+    overflow: auto;
+    width: 100%;
+    height: calc(100vh - 75px);
+    display:none;
+    background-color: white;
+}
+
+.lightbox3:target {
+    display:block;
+ 
+    
+}
+
+.lightbox3 > .container{
+    overflow: hidden;
+    margin: 75px 10% 1em;  
+}
+
+.lightbox4{
+    position: fixed;
+    top:75px;
+    left:0;
+    z-index: 50;
+    overflow: auto;
+    width: 100%;
+    height: calc(100vh - 75px);
+    display:none;
+    background-color: white;
+}
+
+.lightbox4:target {
+    display:block;
+ 
+    
+}
+
+.lightbox4 > .container{
+    overflow: hidden;
+    margin: 75px 10% 1em;  
+}
+
+.lightbox5{
+    position: fixed;
+    top:75px;
+    left:0;
+    z-index: 50;
+    overflow: auto;
+    width: 100%;
+    height: calc(100vh - 75px);
+    display:none;
+    background-color: white;
+}
+
+.lightbox5:target {
+    display:block;
+ 
+    
+}
+
+.lightbox5 > .container{
+    overflow: hidden;
+    margin: 75px 10% 1em;  
+}
+
+.lightbox6{
+    position: fixed;
+    top:75px;
+    left:0;
+    z-index: 50;
+    overflow: auto;
+    width: 100%;
+    height: calc(100vh - 75px);
+    display:none;
+    background-color: white;
+}
+
+.lightbox6:target {
+    display:block;
+ 
+    
+}
+
+.lightbox6 > .container{
+    overflow: hidden;
+    margin: 75px 10% 1em;  
+}
+
+.lightbox3{
+    position: fixed;
+    top:75px;
+    left:0;
+    z-index: 50;
+    overflow: auto;
+    width: 100%;
+    height: calc(100vh - 75px);
+    display:none;
+    background-color: white;
+}
+
+.lightbox3:target {
+    display:block;
+ 
+    
+}
+
+.lightbox3 > .container{
+    overflow: hidden;
+    margin: 75px 10% 1em;  
+}
+
+
 
 .lb-content1{
     width: 100%   
@@ -913,6 +1055,217 @@ hotpink{
     background-size: contain;
     
 }
+
+
+.pic13{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/2-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic14{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/summer-sketch.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic15{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/2-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic16{
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/summersketch2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic17{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/2-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic18{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/smoque6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic20{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/4-4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic21{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/animalsketch1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic22{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/4-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic23{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/4-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic24{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/4-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic25{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/animalsketch2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic26{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/smoque6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic30{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/5-4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic31{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/5-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic32{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/mb-sketch2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic33{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/5-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic34{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/mb-sketch1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic35{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/5-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+
 
 
 

@@ -2,7 +2,7 @@
 <html lang="en-ca">
     <head>
         <meta charset="utf-8">
-        <title>{{page.title}}</title>
+        <title>{% if page.title %}{page.title}} . {% endif %} Portfolio</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
         <link href="{{site.baseurl}}/css/typography.css" rel="stylesheet">
@@ -17,13 +17,15 @@
 	{% include nav.html %}
 
 	{% include lightbox.html %}
+    {% include lightbox2.html %}
+    {% include lightbox3.html %}
+    {% include lightbox4.html %}
+    {% include lightbox5.html %}
+    {% include lightbox6.html %}
+
 
 
 		<div class="main" id="main">
-
-            {% include work.html %}
-            
-            {% include about.html %}
             
             {{ content }}
 

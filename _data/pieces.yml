@@ -1,0 +1,58 @@
+- section: branding
+  units:
+  - title: Off The Dome
+    desc: This is a logo designed for a local custom hat manufacturer
+    folder: branding
+    meta: This is a logo designed for a local custom hat manufacturer
+    img: img/otd-thumb.jpg
+    id: motion-1
+    thumbnail:
+      - thumb: img/otd-sketches-01.jpg
+      - thumb: img/otd-sketches-02.jpg
+      - thumb: img/otd-logos.jpg
+
+  - title: Karlyn's Cookies
+    desc: This is a logo designed for a baking company that specializes in cookies and similar baked treats
+    folder: branding
+    meta: This is a logo designed for a baking company that specializes in cookies and similar baked treats
+    img: img/karlyns-cookies.png
+    id: branding-2
+    thumbnail:
+      - thumb: img/karlyns-cookies-sketch-01.jpg
+      - thumb: img/karlyns-cookies-sketch-02.jpg
+      - thumb: img/karlyns-cookies-sketch-03.jpg
+
+  - title: L.O.C.K.
+    desc: Ticket and logo design for Living Out Christ the King Praise Concert presented by CFC Youth Ottawa
+    folder: branding
+    meta: Ticket and logo design for Living Out Christ the King Praise Concert presented by CFC Youth Ottawa
+    img: img/lock-thumb.jpg
+    id: branding-3
+    thumbnail:
+      - thumb: img/lock-sketch.jpg
+      - thumb: img/lock-logo.jpg
+      - thumb: img/lock-tickets.jpg
+
+- section: motion
+  units:
+  - title: webdev-1
+    desc: This is a placeholding thing
+    folder: webdev
+    meta: This is a placeholding thing
+    img: img/placeholder.jpg
+    id: webdev-1
+    thumbnail:
+      - thumb: img/placeholder.jpg
+      - thumb: img/placeholder.jpg
+      - thumb: img/placeholder.jpg
+
+  - title: webdev-2
+    desc: This is a placeholding thing
+    folder: webdev
+    meta: This is a placeholding thing
+    img: img/placeholder.jpg
+    id: webdev-2
+    thumbnail:
+      - thumb: img/placeholder.jpg
+      - thumb: img/placeholder.jpg
+      - thumb: img/placeholder.jpg
