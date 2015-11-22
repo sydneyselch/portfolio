@@ -814,13 +814,19 @@ hotpink{
     display: inline-block;
     float: right;
     width: auto;
-    margin-bottom: 0;
+
+    
 }
 
-.lb-nav li{
+.lb-nav li a{
     padding-left: none;
     display: inline-block;
     width: 50px;
+     margin: 0 auto .5px;
+	text-decoration: none;
+	background-color:#de0083;
+	color: #fff;
+	padding: 0.5em;
 }
 
 
@@ -1324,7 +1330,71 @@ hotpink{
     
 }
 
+.pic50{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/vn-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
 
+.pic51{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/vn-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic52{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/nasties-mockup.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic53{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/5-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic54{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/mb-sketch1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic55{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/5-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
 
 /*======================================*/
 /*===========Work Page=================*/
@@ -1791,7 +1861,7 @@ hotpink{
     padding: 1em;
     border: 1px solid white;
     position: absolute;
-     background-image: url(../images/7-1.jpg);
+     background-image: url(../images/vn-3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1805,7 +1875,7 @@ hotpink{
     position: absolute;
     top:0;
     right: 0;
-     background-image: url(../images/7-2.jpg);
+     background-image: url(../images/nasties-mockup.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1819,7 +1889,7 @@ hotpink{
     position: absolute;
     right:0;
     top:56.25px;
-     background-image: url(../images/7-3.jpg);
+     background-image: url(../images/vn-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1834,7 +1904,7 @@ hotpink{
     position: absolute;
     bottom: 0;
     right: 0;
-     background-image: url(../images/7-4.jpg);
+     background-image: url(../images/vn-3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1906,7 +1976,7 @@ hotpink{
 
 .social-container{
     padding-left: 0;
-    margin: 1em auto 0;
+    margin: 3em auto 0;
 }
 
 .copyright{
@@ -2026,7 +2096,10 @@ textarea{
 
 @media only screen and (min-width: 40em) {
         
-   
+   .social-container{
+    padding-left: 0;
+    margin: 3em auto 0;
+}
     
     .mobile-logo{
         display: none;
