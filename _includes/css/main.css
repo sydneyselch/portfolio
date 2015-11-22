@@ -768,7 +768,7 @@ hotpink{
     margin: 75px 10% 1em;  
 }
 
-.lightbox3{
+.lightbox7{
     position: fixed;
     top:75px;
     left:0;
@@ -780,13 +780,36 @@ hotpink{
     background-color: white;
 }
 
-.lightbox3:target {
+.lightbox7:target {
     display:block;
  
     
 }
 
-.lightbox3 > .container{
+.lightbox7 > .container{
+    overflow: hidden;
+    margin: 75px 10% 1em;  
+}
+
+.lightbox8{
+    position: fixed;
+    top:75px;
+    left:0;
+    z-index: 50;
+    overflow: auto;
+    width: 100%;
+    height: calc(100vh - 75px);
+    display:none;
+    background-color: white;
+}
+
+.lightbox8:target {
+    display:block;
+ 
+    
+}
+
+.lightbox8 > .container{
     overflow: hidden;
     margin: 75px 10% 1em;  
 }
