@@ -27,8 +27,8 @@ body{
 
 
 .opacity {
-	opacity: 0.5;
-	filter: alpha(opacity=50);
+	opacity: 0.7;
+	filter: alpha(opacity=70);
  	-webkit-transition: opacity .5s linear;
 	}	
 	
@@ -467,7 +467,7 @@ hotpink{
     padding: 1em;
     border: 1px solid white;
     position: absolute;
-       background-image: url(../images/syd.jpg);
+       background-image: url(../images/syd3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -640,6 +640,7 @@ hotpink{
     height: calc(100vh - 75px);
     display:none;
     background-color: white;
+
 }
 
 .lightbox:target {
@@ -2006,10 +2007,7 @@ hotpink{
     font-size: .75em;
 }
 
-.cright{
-    margin: 2em auto 0;   
-    
-}
+
 
 .contact-info ul{
     list-style-type: none;
@@ -2097,7 +2095,13 @@ textarea{
 }
 
 .cright{
-     
+     background-color:white;
+    color: black;
+    height: 220px;
+    width: 220px;
+    border: 2px solid black;
+    padding: 2em 0 0;
+    margin: 4em auto 0;
 
 }
 
@@ -2470,7 +2474,12 @@ textarea{
 
  
 
+.cright{
+    height: 275px;
+    width: 275px;
+    margin: 4em 0 0 10%;
 
+}
     
     
     
