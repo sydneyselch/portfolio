@@ -669,19 +669,12 @@ hotpink{
 
 .lightbox2:target {
     display:block;
- 
-    
 }
-
-
 
 .lightbox2 > .container{
     overflow: hidden;
-    margin: 75px 10% 1em;
-    
-    
+    margin: 75px 10% 1em;    
 }
-
 
 .lightbox3{
     position: fixed;
@@ -1265,7 +1258,71 @@ hotpink{
     
 }
 
+.pic40{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/6-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
 
+.pic41{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/6-4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic42{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/6-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic43{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/5-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic44{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/mb-sketch1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.pic45{
+    height: 300px;
+    width: 100%;
+ 
+        background-image: url(../images/5-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
 
 
 
@@ -1728,6 +1785,60 @@ hotpink{
     background-size: cover;
 } 
 
+.scene-8-1{
+    height: 112.5px;
+    width: 50%;
+    padding: 1em;
+    border: 1px solid white;
+    position: absolute;
+     background-image: url(../images/7-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scene-8-2{
+    height: 56.25px;
+    width: 50%;
+    padding: 1em;
+    border: 1px solid white;
+    position: absolute;
+    top:0;
+    right: 0;
+     background-image: url(../images/7-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scene-8-3{
+    height: 56.25px;
+    width: 50%;
+    padding: 1em;
+    border: 1px solid white;
+    position: absolute;
+    right:0;
+    top:56.25px;
+     background-image: url(../images/7-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.scene-8-4{
+    height: 112.5px;
+    width: 100%;
+    padding: 1em;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+     background-image: url(../images/7-4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
 
 
 
@@ -2219,7 +2330,27 @@ textarea{
 
 } 
 
- 
+ .scene-8-1{
+    height: 200px;
+
+}
+
+.scene-8-2{
+    height: 100px;
+
+}
+
+.scene-8-3{
+    height: 100px;
+
+    
+}
+
+.scene-8-4{
+    height: 200px;
+
+} 
+
     
   .scene-10-1{
     height: 200px;
