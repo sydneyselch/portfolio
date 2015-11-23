@@ -26,6 +26,7 @@ body{
 }
 
 
+
 .opacity {
 	opacity: 0.7;
 	filter: alpha(opacity=70);
@@ -154,7 +155,7 @@ body{
 .nav-check {
 	/* Put the checkbox off the top of the screen */
 	position: absolute;
-	top: -3em;
+	top: -6em;
 }
 
 
@@ -710,7 +711,7 @@ hotpink{
 }
 
 .lightbox4 > .container{
-    overflow: hidden;
+    overflow: hidden; 
     margin: 75px 10% 1em;  
 }
 
@@ -822,6 +823,8 @@ hotpink{
 	background-color:#de0083;
 	color: #fff;
 	padding: 0.5em;
+    width:50px;
+    text-align: center;
 }
 
 .lb-nav{
@@ -829,12 +832,13 @@ hotpink{
     display: inline-block;
     float: right;
     width: auto;
+    position: fixed;
+    right:0;
 
     
 }
 
 .lb-nav li a{
-    padding-left: none;
     display: inline-block;
     width: 50px;
      margin: 0 auto .5px;
@@ -842,6 +846,7 @@ hotpink{
 	background-color:#de0083;
 	color: #fff;
 	padding: 0.5em;
+    text-align: center;
 }
 
 
@@ -947,464 +952,8 @@ hotpink{
     width: 100%;  
  }
     
-}
-.pic2{
-    height: 300px;
-    width: 100%;
-   
-        background-image: url(../images/izze1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-.pic3{
-    height: 300px;
-    width: 100%;
-   
-        background-image: url(../images/izze2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-.pic4{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/izze4.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic5{
-    height: 300px;
-    width: 100%;
-   
-        background-image: url(../images/izze5.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic6{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/izze6.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
 
 
-.pic7{
-    height: 300px;
-    width: 100%;
- 
-    background-image: url(../images/smoque1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-.pic8{
-    height: 300px;
-    width: 100%;
-   
-        background-image: url(../images/smoque3.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-.pic9{
-    height: 300px;
-    width: 100%;
-   
-        background-image: url(../images/smoque2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-.pic10{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/smoque4.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic11{
-    height: 300px;
-    width: 100%;
-   
-        background-image: url(../images/smoque5.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic12{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/smoque6.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-
-.pic13{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/2-2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic14{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/summer-sketch.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic15{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/2-3.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic16{
-    height: 300px;
-    width: 100%;
-    background-image: url(../images/summer.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic17{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/2-1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic18{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/summersketch2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic20{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/4-4.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic21{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/animalsketch1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic22{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/4-2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic23{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/4-1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic24{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/4-3.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic25{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/animalsketch2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic26{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/smoque6.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic30{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/5-4.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic31{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/5-3.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic32{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/mb-sketch2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic33{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/5-2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic34{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/mb-sketch1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic35{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/5-1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic40{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/6-3.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic41{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/6-4.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic42{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/6-1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic43{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/5-2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic44{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/mb-sketch1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic45{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/5-1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic50{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/bd-art.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic51{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/7-3.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic52{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/bd-1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic53{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/bd-5.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic54{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/bd-bus.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
-
-.pic55{
-    height: 300px;
-    width: 100%;
- 
-        background-image: url(../images/skullsketch.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-}
 
 /*======================================*/
 /*===========Work Page=================*/
@@ -1416,10 +965,6 @@ hotpink{
     
 }
 
-.work-page .container{
-    margin-bottom: 1em;
-       
-}
 
 .work {
     width: 100%;
@@ -2136,28 +1681,12 @@ textarea{
         overflow: hidden;
         display: block;
         border-bottom: 3px solid #de0083;
-        position: fixed;
         z-index: 20;
         width: 100%;
         background-color:white;
         color:black;
         height: 75px;
     }
-    
-    
-    
-    .desktop-nav.past-main {
-        background-color:black;
-        color:white;
-}
-
-    #main {
-   
-}
-
-    #below-main {
-    
-}
     
     
     .desktop-nav ul{ 
@@ -2171,7 +1700,7 @@ textarea{
     }
     
     .desktop-nav ul li:active a{
-        color:yellow;   
+        color:hotpink;   
         
     }
 
@@ -2259,7 +1788,8 @@ textarea{
     width: 100%;
     height: 400px;
 }
-    .about-work{
+    
+.about-work{
 
     width: 100%;
     height: 400px;
@@ -2471,10 +2001,11 @@ textarea{
 .cright{
     height: 275px;
     width: 275px;
-    margin: 4em 0 0 10%;
+    margin: 4em 0 0 30%;
 
 }
     
+   
     
     
 }
@@ -2491,9 +2022,6 @@ textarea{
     margin: .5em 15% .5em;
     
 }
-    
-    
-    
 
     
 }
@@ -2501,8 +2029,7 @@ textarea{
 @media only screen and (min-width: 60em) {
     
  
-
-      
+    
 
         
     }
@@ -2511,7 +2038,10 @@ textarea{
 @media only screen and (min-width: 70em) {
  
   
-    
+   
+
+      
+
     
 }
 
