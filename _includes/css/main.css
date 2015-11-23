@@ -204,11 +204,11 @@ body{
 
 
 .banner{
-
     height: 75px;
     width:100%;
     background-color:white;
     position: fixed;
+    top:0;
     z-index: 70;
     display: inline-block;
     border-bottom: 3px solid #de0083;
@@ -961,7 +961,6 @@ hotpink{
 
 .work-page{
     height: 100%;
-    margin: 100px 0 0;
     
 }
 
@@ -1686,6 +1685,8 @@ textarea{
         background-color:white;
         color:black;
         height: 75px;
+        position:fixed;
+        top:0;
     }
     
     
