@@ -288,7 +288,6 @@ body{
 }
 
  /*animation: bg-change 18s linear infinite;
-
 @keyframes bg-change {
     0% {
      background-image: url(../images/izze-bg.jpg);
@@ -803,6 +802,29 @@ hotpink{
 }
 
 .lightbox8 > .container{
+    overflow: hidden;
+    margin: 75px 10% 1em;  
+}
+
+.lightbox9{
+    position: fixed;
+    top:75px;
+    left:0;
+    z-index: 50;
+    overflow: auto;
+    width: 100%;
+    height: calc(100vh - 75px);
+    display:none;
+    background-color: white;
+}
+
+.lightbox9:target {
+    display:block;
+ 
+    
+}
+
+.lightbox9 > .container{
     overflow: hidden;
     margin: 75px 10% 1em;  
 }
@@ -1464,6 +1486,60 @@ hotpink{
     background-size: cover;
 } 
 
+.scene-9-1{
+    height: 150px;
+    width: 70%;
+    padding: 1em;
+    border: 1px solid white;
+    position: absolute;
+    background-image: url(../images/iphone-case-mockup2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scene-9-2{
+    height: 75px;
+    width: 30%;
+    padding: 1em;
+    border: 1px solid white;
+    position: absolute;
+    top:0;
+    right: 0;
+     background-image: url(../images/pick.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scene-9-3{
+    height: 75px;
+    width: 70%;
+    padding: 1em;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 0;
+     background-image: url(../images/lipspattern.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.scene-9-4{
+    height: 150px;
+    width: 30%;
+    padding: 1em;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+     background-image: url(../images/driplippattern.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
 
 
 .popular-container{
@@ -2045,4 +2121,3 @@ textarea{
 
     
 }
-
