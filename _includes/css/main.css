@@ -1540,33 +1540,6 @@ hotpink{
     background-size: cover;
 }   
 
-
-
-.popular-container{
-    height: auto;
-    width:100%; 
-    margin: 1em auto 1em;
-}
-
-.popular{
-    background-color:#eee;
-    border: 1px solid white;
-    height: 200px;
-    width:100%;
-    min-width: 100%;
-    display: inline-block;
-    margin: 0 auto 0;
-    overflow: hidden;
-    margin:  0;
-
-    
-    
-}
-
-
-
-
-
 /*======================================*/
 /*===========Contact Page=================*/
 /*======================================*/
@@ -1585,13 +1558,6 @@ hotpink{
     position: absolute;
     z-index: 1;
 }
-
-.map{
-    height: 200px;   
-    width: 100%;
-    
-}
-
 
 .social{
     list-style-type: none;
@@ -1731,6 +1697,8 @@ textarea{
     
     .container{
     margin: 1em 10% 4em;    
+    -webkit-transition: margin 1s; /* For Safari 3.1 to 6.0 */
+    transition: margin 1s;
 }
 
 }
