@@ -56,9 +56,28 @@ body{
 /*======================================*/
 
 .skip-links{
-    position:absolute;
-    top: -200px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
 }
+
+.skip-links a{
+    text-decoration: none;
+    color:white;
+    background-color:hotpink;
+    top:-5em;
+    position:absolute;
+    z-index: 100;
+    padding:1em;
+}
+
+.skip-links a:focus{
+    text-decoration: line-through;
+    outline: 1px solid #000;
+    top:0;
+}
+
 
 .trenches-top{
     text-transform: uppercase;
