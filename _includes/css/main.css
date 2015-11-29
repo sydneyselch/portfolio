@@ -1145,7 +1145,7 @@ hotpink{
     position: absolute;
     bottom: 0;
     right: 0;
-     background-image: url(../images/2-4.jpg);
+     background-image: url(../images/2-2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2037,6 +2037,28 @@ textarea{
 }
 
 .scene-10-4{
+     height: 200px;
+
+} 
+    
+    
+.scene-9-1{
+    height: 200px;
+
+}
+
+.scene-9-2{
+ height: 200px;
+
+}
+
+.scene-9-3{
+     height: 200px;
+
+    
+}
+
+.scene-9-4{
      height: 200px;
 
 } 
