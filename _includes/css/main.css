@@ -61,7 +61,7 @@ body{
     
 }
 
-.colour-btn p{
+.colour-btn a{
     color:white;
     text-transform: uppercase;
     font-size: 1em;   
