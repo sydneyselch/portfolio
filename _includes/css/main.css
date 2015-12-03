@@ -52,6 +52,44 @@ body{
 }
 
 /*======================================*/
+/*===========Colours=================*/
+/*======================================*/
+
+.colour-btn{
+    border: 1px solid white;
+    background-color: none;
+    
+}
+
+.colour-btn p{
+    color:white;
+    text-transform: uppercase;
+    font-size: 1em;   
+}
+
+.pink {
+    background-color: deeppink;   
+}
+
+.blue {
+    background-color: blue;   
+}
+
+.maroon {
+    background-color: maroon;   
+}
+
+.green {
+    background-color: green;   
+}
+
+.gray {
+    background-color: gray;   
+}
+
+
+
+/*======================================*/
 /*===========Navigation=================*/
 /*======================================*/
 
@@ -861,7 +899,6 @@ hotpink{
     left:0;
     margin: 0 auto .5px;
 	text-decoration: none;
-	background-color:#de0083;
 	color: #fff;
 	padding: 0.5em;
     width:50px;
@@ -884,7 +921,6 @@ hotpink{
     width: 50px;
      margin: 0 auto .5px;
 	text-decoration: none;
-	background-color:#de0083;
 	color: #fff;
 	padding: 0.5em;
     text-align: center;
@@ -1598,7 +1634,6 @@ textarea{
 /*===========Footer=================*/
 /*======================================*/
 .footer{
-    background-color: deeppink;
     color: white;
     height: auto;
     width: 100%;
