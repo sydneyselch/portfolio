@@ -874,7 +874,7 @@ hotpink{
     float: right;
     width: auto;
     position: fixed;
-    right:0;
+    right:0px;
 
     
 }
@@ -888,6 +888,7 @@ hotpink{
 	color: #fff;
 	padding: 0.5em;
     text-align: center;
+    font-size: .75em;
 }
 
 
@@ -903,88 +904,14 @@ hotpink{
     
 }
 
-.shoot-info{
-    list-style-type: none;
-    padding: 0 44% 0 0;
-    width: 125%;
-}
-
-.shoot-info h1{
-    font-size: 1.5em;
-    margin: 0 auto 0;
-    
-}
-
-.shoot-info h2{
-    font-size: .75em; 
-    margin:0;
-    text-transform: uppercase;
-}
-
-.shoot-info ul{
-    padding-left: 0; 
-    font-size: .75em;
-    
-}
-
-.shoot-info ul li{
-    text-decoration: none;
-    list-style-type: none;
-
-    
-}
-
-.shoot-info ul li:first-child{
-    color:red;
-
-    
-}
 
 
-.dtl-logo{
-    width: 250px;
-    height: auto;
-    padding: 1em;
-    
-}
 
-.buckets{
-
-    
-}
-.bucket{
-    border:1px solid gray;
-    background-image: url(../images/1-14.jpg);
-    background-position: center center;
-    background-size: cover;
-    width: 89px;
-    height: 50px;
-    display: inline-block;
-    margin: .5em auto 1em;
-
-    
-}
-
-.tools{
-    margin: 1em auto 1em;  
-    text-align: center;
-}
-
-.tools img{
-    margin: 0 auto 0;
-       
-    
-}
-
-.tools-buttons{
-       
-    margin: 0 auto 0;
-}
 
 .tools-buttons h2{
-    text-align: center;
     text-transform: uppercase;
     font-size: .75em;
+    margin: 0 0 .5em;
     
 }
 
@@ -1020,13 +947,17 @@ hotpink{
 }
 
 .work-title{
-    opacity: 0;
     position: absolute;
     bottom:70px;
     left:0;
-    z-index: 50;
     padding: 1em 10% 1em;
     margin: 0;
+    opacity: 0;
+    -webkit-transition: opacity .5 linear;
+    -moz-transition: opacity .5s linear;
+    -ms-transition: opacity .1s linear;
+    -o-transition: opacity .5s linear;
+    transition: opacity .5s linear;
    
     
 }
@@ -1041,18 +972,7 @@ hotpink{
     
 }
 
-.work:hover{
-         
-    
-}
 
-.work:hover .work-title{
-    opacity: 1;
-    transition: .5s linear;
-  
-    
-
-}
 
 
 
@@ -1724,6 +1644,12 @@ textarea{
 
 @media only screen and (min-width: 40em) {
         
+    
+    .respond{
+        width: 66%;   
+        
+    }
+    
    .social-container{
     padding-left: 0;
     margin: 3em auto 0;
