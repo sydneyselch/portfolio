@@ -5,6 +5,7 @@ var $blue = $('.blue');
 var $maroon = $('.maroon');
 var $gray = $('.gray');
 
+
 $btn.on('click', function () {
     $pink.toggleClass({
         '.green'
@@ -12,4 +13,17 @@ $btn.on('click', function () {
         '.blue'
         '.gray'
     });
+});
+
+
+
+
+
+var $lightbox = $('.lightbox');
+var $body = $('.body'); 
+var $scrollOff = $('.scrolloff');
+var $work = $('.work');
+
+$work.on('click', function () {
+    $body.addClass('.scrolloff');  
 });

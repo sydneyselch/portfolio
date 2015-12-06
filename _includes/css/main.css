@@ -686,6 +686,13 @@ hotpink{
 /*===========lightbox=================*/
 /*======================================*/
 
+
+.scrolloff{
+    overflow: hidden;
+    
+}
+
+
 .lightbox{
     position: fixed;
     top:75px;
