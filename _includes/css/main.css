@@ -14,6 +14,11 @@ html {
   -o-text-size-adjust: 100%;
    font-family: 'Didact Gothic', sans-serif;
     color: black;
+    cursor: url(../images/cursor.png) 13 8,default;
+}
+
+html a{
+     cursor: url(../images/pointer.png) 26 7,pointer;   
 }
 
 *, *:before, *:after {
@@ -62,6 +67,7 @@ body{
     padding: 1em 4% 1em;
     height: 50px;
     font-size: .75em;
+        cursor: url(../images/pointer.png) 26 7,pointer;
     
 }
 
@@ -70,7 +76,13 @@ body{
     background-color:white;
     color:black;
     border:1px solid black;
+        cursor: url(../images/pointer.png) 26 7,pointer;
     
+    
+}
+
+.colour-btn:focus{
+    outline: 2px solid white;
     
 }
 
@@ -138,6 +150,8 @@ body{
     display: none; 
     margin: .5em 2% .5em;
     float:left;
+    margin: 1em;
+        cursor: url(../images/pointer.png) 26 7,pointer;
 }
 
 
@@ -145,31 +159,12 @@ body{
     height: 50px;
     width: 50px;
     float: left;
-    margin: .5em 2% .5em;
+    margin: 2em 10% .5em;
     position: relative;
     opacity: 1;
+        cursor: url(../images/pointer.png) 26 7,pointer;
 }
 
-.ham-hover{
-    height: 50px;
-    width: 50px;
-    margin: .5em 2% .5em;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 20;
-}
-
-.ham:hover ~ .ham-hover{
-    opacity: 1;
-       
-}
-
-.ham:hover {
-    opacity: 0; 
-  
-}
 
 .nav {
 	display: none;
@@ -269,7 +264,7 @@ body{
 
 
 .banner{
-    height: 75px;
+    height: 110px;
     width:100%;
     background-color:white;
     position: fixed;
@@ -298,7 +293,7 @@ body{
     width: 100px;
     position: absolute;
     right: -20px;
-    top: 5px;
+    bottom:0;
 
 }
 
@@ -636,7 +631,7 @@ hotpink{
 .jump-spacer{
     
     position: absolute;
-    top: -75px;
+    top: -110px;
 }
 
 .clients-page{
@@ -695,12 +690,12 @@ hotpink{
 
 .lightbox{
     position: fixed;
-    top:75px;
+    top:110px;
     left:0;
     z-index: 50;
     overflow: auto;
     width: 100%;
-    height: calc(100vh - 75px);
+    height: calc(100vh - 110px);
     display:none;
     background-color: white;
 
@@ -721,12 +716,12 @@ hotpink{
 
 .lightbox2{
     position: fixed;
-    top:75px;
+    top:110px;
     left:0;
     z-index: 50;
     overflow: auto;
     width: 100%;
-    height: calc(100vh - 75px);
+    height: calc(100vh - 110px);
     display:none;
     background-color: white;
 }
@@ -742,12 +737,12 @@ hotpink{
 
 .lightbox3{
     position: fixed;
-    top:75px;
+    top:110px;
     left:0;
     z-index: 50;
     overflow: auto;
     width: 100%;
-    height: calc(100vh - 75px);
+    height: calc(100vh - 110px);
     display:none;
     background-color: white;
 }
@@ -765,12 +760,12 @@ hotpink{
 
 .lightbox4{
     position: fixed;
-    top:75px;
+    top:110px;
     left:0;
     z-index: 50;
     overflow: auto;
     width: 100%;
-    height: calc(100vh - 75px);
+    height: calc(100vh - 110px);
     display:none;
     background-color: white;
 }
@@ -788,12 +783,12 @@ hotpink{
 
 .lightbox5{
     position: fixed;
-    top:75px;
+    top:110px;
     left:0;
     z-index: 50;
     overflow: auto;
     width: 100%;
-    height: calc(100vh - 75px);
+    height: calc(100vh - 110px);
     display:none;
     background-color: white;
 }
@@ -811,12 +806,12 @@ hotpink{
 
 .lightbox6{
     position: fixed;
-    top:75px;
+    top:110px;
     left:0;
     z-index: 50;
     overflow: auto;
     width: 100%;
-    height: calc(100vh - 75px);
+    height: calc(100vh - 110px);
     display:none;
     background-color: white;
 }
@@ -834,12 +829,12 @@ hotpink{
 
 .lightbox7{
     position: fixed;
-    top:75px;
+    top:110px;
     left:0;
     z-index: 50;
     overflow: auto;
     width: 100%;
-    height: calc(100vh - 75px);
+    height: calc(100vh - 110px);
     display:none;
     background-color: white;
 }
@@ -857,12 +852,12 @@ hotpink{
 
 .lightbox8{
     position: fixed;
-    top:75px;
+    top:110px;
     left:0;
     z-index: 50;
     overflow: auto;
     width: 100%;
-    height: calc(100vh - 75px);
+    height: calc(100vh - 110px);
     display:none;
     background-color: white;
 }
@@ -880,12 +875,12 @@ hotpink{
 
 .lightbox9{
     position: fixed;
-    top:75px;
+    top:110px;
     left:0;
     z-index: 50;
     overflow: auto;
     width: 100%;
-    height: calc(100vh - 75px);
+    height: calc(100vh - 110px);
     display:none;
     background-color: white;
 }
@@ -912,12 +907,12 @@ hotpink{
     position: absolute;
     top:0;
     left:0;
-    margin: 0 auto .5px;
 	text-decoration: none;
 	color: #fff;
-	padding: 0.5em;
     width:50px;
     text-align: center;
+    font-size: 2.5em;
+        cursor: url(../images/pointer.png) 26 7,pointer;
 }
 
 .lb-nav{
@@ -925,6 +920,7 @@ hotpink{
     position: fixed;
     right:0px;
     margin:0;
+
     
 }
 
@@ -932,6 +928,7 @@ hotpink{
     width: 50px;
     height: 50px;
     text-align: center;
+    
 }
 
 
@@ -941,6 +938,7 @@ hotpink{
 	text-decoration: none;
 	color: #fff;
     text-align: center;
+        cursor: url(../images/pointer.png) 26 7,pointer;
 }
 
 
@@ -983,7 +981,7 @@ hotpink{
 
 .work-page{
     height: 100%;
-    top:70px;
+    top:100px;
     
 }
 
@@ -993,6 +991,7 @@ hotpink{
     height: 225px;
     position: relative;
     display: inline-block;
+    cursor: url(../images/pointer.png) 26 7,pointer
 }
 
 .work-page h2{
@@ -1747,14 +1746,15 @@ textarea{
         width: 100%;
         background-color:white;
         color:black;
-        height: 75px;
+        height: 110px;
         position:fixed;
         top:0;
     }
     
     
     .desktop-nav ul{ 
-        padding: 0 2% 0;
+        padding: 0 0 0 73px;
+        width: auto;
         list-style-type: none;
         float: left;
         text-align: center;
@@ -1768,21 +1768,21 @@ textarea{
         
     }
 
-    .desktop-nav ul li:first-child{
-    margin:0;   
-    }
+   
 
     .desktop-nav ul li{
-    width: 3;
-    padding: 24px 0 0;
-    margin: 0;
-    font-weight: 100;
-    display: inline-block;
+        padding: .25em 2% .25em;
+    }
+    
+     .desktop-nav ul li:hover{
+            text-decoration: line-through;
+          
+        
     }
 
     .desktop-nav ul li a {
     color: black;
-    cursor: pointer;
+    cursor: url(../images/pointer.png) 26 7,pointer;
     outline: none;
     transition: all .3s linear;
     text-decoration: none;
@@ -1791,7 +1791,8 @@ textarea{
     }
     
     .desktop-nav ul li a:hover {
-        text-decoration: line-through;
+        
+     
 
     }        
     .desktop-nav ul li.middle{
