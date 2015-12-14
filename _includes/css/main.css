@@ -60,6 +60,31 @@ body{
 /*===========Colours=================*/
 /*======================================*/
 
+.box{
+    height:60px;
+    margin: 0 0 0 100px;
+    display:block;
+    width:110%;
+
+    
+}
+
+.colour-box{
+    position:relative;
+    border:1px solid white;
+    margin: 0 25% 0;
+    
+}
+
+.colour-box p{
+    left:20%;
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    
+    
+}
+
 .colour-btn{
     border: 1px solid white;
     background-color: deeppink;

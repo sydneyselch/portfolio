@@ -1,4 +1,29 @@
----
----
+var $btn = $('.colour-btn');
+var $pink = $('.pink');
+var $green = $('.green');
+var $blue = $('.blue');
+var $maroon = $('.maroon');
+var $gray = $('.gray');
 
-    {% include js/colour.js %}
+
+$btn.on('click', function () {
+    $pink.toggleClass({
+        '.green'
+        '.maroon'
+        '.blue'
+        '.gray'
+    });
+});
+
+
+
+
+
+var $lightbox = $('.lightbox');
+var $body = $('.body'); 
+var $scrollOff = $('.scrolloff');
+var $work = $('.work');
+
+$work.on('click', function () {
+    $body.addClass('.scrolloff');  
+});
