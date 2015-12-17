@@ -3,7 +3,7 @@ var colours = ['pink', 'blue', 'maroon', 'green', 'gray'];
 var $btn = $('.colour-btn');
 
 $btn.on('click', function () {
-    $('.lb-nav li, .footer, .lb-close, colour-btn').removeClass(colours[currentColour]);
+    $('.lb-nav li, .footer, .lb-close, border-btm').removeClass(colours[currentColour]);
     
      currentColour++;
     
@@ -11,5 +11,5 @@ $btn.on('click', function () {
         currentColour = 0;    
     }
     
-    $('.lb-nav li, .footer, .lb-close, colour-btn').addClass(colours[currentColour]);
+    $('.lb-nav li, .footer, .lb-close, .border-btm').addClass(colours[currentColour]);
 });

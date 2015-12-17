@@ -107,29 +107,35 @@ body{
 }
 
 .colour-btn{
-    border: 1px solid black;
+    color:white;
+    background-color:transparent;
+    border: 2px solid white;
+    
     padding: 1em 4% 1em;
     height: 50px;
+    width: 300px;
+    
     font-size: .75em;
     font-weight: 500;
     cursor: url(../images/pointer.png) 26 7,pointer;
-    background-color: white;
-    width: 300px;
+   
+  
     
 }
 
 
 .colour-btn:hover{
-    color:white;
-    border:1px solid white;
+    border:2px solid black;
         cursor: url(../images/pointer.png) 26 7,pointer;
-    background-color: transparent;
+     background-color: white;
+    color:black;
     
     
 }
 
 .colour-btn:focus{
     outline: 2px solid white;
+    color:white;
     
 }
 
@@ -169,6 +175,17 @@ body{
 /*======================================*/
 /*===========Navigation=================*/
 /*======================================*/
+
+.border-btm{
+    width:100%;
+    overflow: hidden;
+    height: 4px;
+    position:fixed;
+    top: 106px;
+    left:0;
+    z-index: 10;
+    
+}
 
 .skip-links{
     margin: 0;
@@ -321,24 +338,18 @@ body{
 
 
 .banner{
-    height: 110px;
+    height: 106px;
     width:100%;
     background-color:white;
     position: fixed;
     top:0;
     z-index: 70;
     display: inline-block;
-    border-bottom: 3px solid #de0083;
     
 }
 
 
 
-.header{
-    font-weight: 300;
-    font-size: 3em;
-    
-}
 
 .container{
     margin: 2em 10% 3em;    
@@ -1801,12 +1812,12 @@ textarea{
         padding: 0;
         overflow: hidden;
         display: block;
-        border-bottom: 3px solid #de0083;
+       
         z-index: 20;
         width: 100%;
         background-color:white;
         color:black;
-        height: 110px;
+        height: 106px;
         position:fixed;
         top:0;
     }
