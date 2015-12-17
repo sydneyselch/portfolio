@@ -754,8 +754,7 @@ hotpink{
     height: calc(100vh - 110px);
     display:none;
     background-color: white;
-    -webkit-overflow-scrolling: touch;
-    overflow-y: auto;
+  
 
 }
 
