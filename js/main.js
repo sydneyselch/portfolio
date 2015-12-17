@@ -1,29 +1,15 @@
+var currentColour = 0;
+var colours = ['pink', 'blue', 'maroon', 'green', 'gray'];
 var $btn = $('.colour-btn');
-var $pink = $('.pink');
-var $green = $('.green');
-var $blue = $('.blue');
-var $maroon = $('.maroon');
-var $gray = $('.gray');
-
 
 $btn.on('click', function () {
-    $pink.toggleClass({
-        '.green'
-        '.maroon'
-        '.blue'
-        '.gray'
-    });
-});
-
-
-
-
-
-var $lightbox = $('.lightbox');
-var $body = $('.body'); 
-var $scrollOff = $('.scrolloff');
-var $work = $('.work');
-
-$work.on('click', function () {
-    $body.addClass('.scrolloff');  
+    $('.lb-nav li, .footer, .lb-close, colour-btn').removeClass(colours[currentColour]);
+    
+     currentColour++;
+    
+    if (currentColour >= colours.length) {
+        currentColour = 0;    
+    }
+    
+    $('.lb-nav li, .footer, .lb-close, colour-btn').addClass(colours[currentColour]);
 });
