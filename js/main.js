@@ -1,5 +1,5 @@
 var currentColour = 0;
-var colours = ['pink', 'blue', 'maroon', 'green', 'gray'];
+var colours = ['pink', 'teal', 'maroon', 'olive', 'purple', 'orange', 'navy', 'gray'];
 var $btn = $('.colour-btn');
 
 $btn.on('click', function () {

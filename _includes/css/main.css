@@ -134,8 +134,10 @@ body{
 }
 
 .colour-btn:focus{
-    outline: 2px solid white;
-    color:white;
+     outline:2px solid black;
+
+     background-color: white;
+    color:black;
     
 }
 
@@ -144,16 +146,28 @@ body{
     background-color: deeppink;   
 }
 
-.blue {
-    background-color: #26265a;   
+.teal {
+    background-color: darkcyan;   
 }
 
 .maroon {
     background-color: maroon;   
 }
 
-.green {
-    background-color: 	#265a40;   
+.olive {
+    background-color: 	olivedrab;   
+}
+
+.purple {
+    background-color: 	slateblue;   
+}
+
+.orange {
+    background-color: orangered;   
+}
+
+.navy {
+    background-color: #26265a;   
 }
 
 .gray {
@@ -233,7 +247,7 @@ body{
     height: 50px;
     width: 50px;
     float: left;
-    margin: 2em 10% .5em;
+    margin: 1.25em 10% .5em;
     position: relative;
     opacity: 1;
         cursor: url(../images/pointer.png) 26 7,pointer;
@@ -1859,6 +1873,7 @@ textarea{
     text-decoration: none;
     display: block;
     font-size: 1em;
+        padding: 1px 0 0;
     }
     
     .desktop-nav ul li a:hover {
@@ -2166,6 +2181,12 @@ textarea{
 
 
 @media only screen and (min-width: 50em) {
+    
+        .container{
+    margin: 1em 8em 4em;    
+    -webkit-transition: margin 1s; /* For Safari 3.1 to 6.0 */
+    transition: margin 1s;
+        }
     
 .work {
     width: 100%;
