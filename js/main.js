@@ -13,3 +13,22 @@ $btn.on('click', function () {
     
     $('.lb-nav li, .footer, .lb-close, .border-btm').addClass(colours[currentColour]);
 });
+
+$('.desktop-nav, .nav').localScroll();
+
+
+
+
+var $links = $('.top-nav-li a');
+
+$links.on('click', function () {
+     $('.nav-check').prop('checked', false);
+});
+
+
+   
+    
+    
+
+
+

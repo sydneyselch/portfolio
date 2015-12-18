@@ -259,6 +259,11 @@ body{
    
 }
 
+.display-none{
+    display:none;   
+    
+}
+
 .nav ul{
     text-align: center;  
     padding: 30% 0 0;
