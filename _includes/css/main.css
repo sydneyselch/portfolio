@@ -259,10 +259,6 @@ body{
    
 }
 
-.display-none{
-    display:none;   
-    
-}
 
 .nav ul{
     text-align: center;  
@@ -594,7 +590,7 @@ hotpink{
 }
 
 .about-info{
-    margin: 0 10% 0 0;   
+    margin: 2em 10% 0 0;   
     
 }
 
@@ -2179,6 +2175,10 @@ textarea{
      width: 350px;
 }
     
+    .about-info{
+    margin: 4em 10% 0 0;   
+    
+}
    
     
     
