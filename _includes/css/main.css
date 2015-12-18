@@ -28,6 +28,7 @@ html a{
 body{
     margin:0;
     padding:0;   
+       -webkit-overflow-scrolling: touch;
 }
 
 
@@ -854,6 +855,7 @@ hotpink{
     height: calc(100vh - 110px);
     display:none;
     background-color: white;
+       -webkit-overflow-scrolling: touch;
 }
 
 .lightbox4:target {
@@ -877,6 +879,7 @@ hotpink{
     height: calc(100vh - 110px);
     display:none;
     background-color: white;
+       -webkit-overflow-scrolling: touch;
 }
 
 .lightbox5:target {
@@ -900,6 +903,7 @@ hotpink{
     height: calc(100vh - 110px);
     display:none;
     background-color: white;
+       -webkit-overflow-scrolling: touch;
 }
 
 .lightbox6:target {
@@ -923,6 +927,7 @@ hotpink{
     height: calc(100vh - 110px);
     display:none;
     background-color: white;
+       -webkit-overflow-scrolling: touch;
 }
 
 .lightbox7:target {
@@ -946,6 +951,7 @@ hotpink{
     height: calc(100vh - 110px);
     display:none;
     background-color: white;
+       -webkit-overflow-scrolling: touch;
 }
 
 .lightbox8:target {
@@ -969,6 +975,7 @@ hotpink{
     height: calc(100vh - 110px);
     display:none;
     background-color: white;
+       -webkit-overflow-scrolling: touch;
 }
 
 .lightbox9:target {
