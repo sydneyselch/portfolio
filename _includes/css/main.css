@@ -14,11 +14,11 @@ html {
   -o-text-size-adjust: 100%;
    font-family: 'Didact Gothic', sans-serif;
     color: black;
-    cursor: url(../images/cursor.png) 13 8,default;
+
 }
 
 html a{
-     cursor: url(../images/pointer.png) 26 7,pointer;   
+     cursor: pointer;   
 }
 
 *, *:before, *:after {
@@ -30,8 +30,6 @@ body{
     padding:0;   
        -webkit-overflow-scrolling: touch;
 }
-
-
 
 .opacity {
 	opacity: 0.7;
@@ -118,16 +116,35 @@ body{
     
     font-size: .75em;
     font-weight: 500;
-    cursor: url(../images/pointer.png) 26 7,pointer;
+    cursor: pointer;
    
   
     
 }
 
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	
+	border-bottom: 15px solid black;
+    position:fixed;
+    bottom: 100px;
+    right:5px;
+}
+
+.top{
+    color:black;
+    position: absolute;
+    font-size: .75em;
+    right: -9px;
+}
+
 
 .colour-btn:hover{
     border:2px solid black;
-        cursor: url(../images/pointer.png) 26 7,pointer;
+        cursor: pointer;
      background-color: white;
     color:black;
     
@@ -182,6 +199,7 @@ body{
 
 .oops-page{
     height: 100%;
+    margin: 150px 20% 40px;
 
 }
 
@@ -240,7 +258,7 @@ body{
     margin: .5em 2% .5em;
     float:left;
     margin: 1em;
-        cursor: url(../images/pointer.png) 26 7,pointer;
+        cursor: pointer;
 }
 
 
@@ -251,7 +269,7 @@ body{
     margin: 1.25em 10% .5em;
     position: relative;
     opacity: 1;
-        cursor: url(../images/pointer.png) 26 7,pointer;
+        cursor: pointer;
 }
 
 
@@ -1005,7 +1023,7 @@ hotpink{
     width:50px;
     text-align: center;
     font-size: 2.5em;
-        cursor: url(../images/pointer.png) 26 7,pointer;
+        cursor: pointer;
 }
 
 .lb-nav{
@@ -1031,7 +1049,7 @@ hotpink{
 	text-decoration: none;
 	color: #fff;
     text-align: center;
-        cursor: url(../images/pointer.png) 26 7,pointer;
+        cursor: pointer;
 }
 
 
@@ -1084,7 +1102,7 @@ hotpink{
     height: 225px;
     position: relative;
     display: inline-block;
-    cursor: url(../images/pointer.png) 26 7,pointer
+    cursor: pointer
 }
 
 .work-page h2{
@@ -1875,7 +1893,7 @@ textarea{
 
     .desktop-nav ul li a {
     color: black;
-    cursor: url(../images/pointer.png) 26 7,pointer;
+    cursor: pointer;
     outline: none;
     transition: all .3s linear;
     text-decoration: none;
