@@ -1864,7 +1864,7 @@ textarea{
     
     
     .desktop-nav ul{ 
-        padding: 0 0 0 73px;
+        padding: 0 0 0 70px;
         width: auto;
         list-style-type: none;
         float: left;
@@ -1882,7 +1882,8 @@ textarea{
    
 
     .desktop-nav ul li{
-        padding: .25em 2% .25em;
+        padding: .25em 0 .25em;
+     
     }
     
      .desktop-nav ul li:hover{

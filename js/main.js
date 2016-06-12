@@ -17,8 +17,6 @@ $btn.on('click', function () {
 $('.desktop-nav, .nav').localScroll();
 
 
-
-
 var $links = $('.top-nav-li a');
 
 $links.on('click', function () {
